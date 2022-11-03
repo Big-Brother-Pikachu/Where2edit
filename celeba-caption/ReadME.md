@@ -1,0 +1,1 @@
+The Multi-Modal-CelebA-HQ (MM CelebA-HQ) is from <https://github.com/IIGROUP/MM-CelebA-HQ-Dataset>.
