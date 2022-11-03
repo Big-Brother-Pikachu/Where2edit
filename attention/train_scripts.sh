@@ -1,0 +1,3 @@
+python clustering_feature.py --ckpt "../pretrained_models/stylegan2-ffhq-config-f-1024.pt" --stylegan_size 1024 --channel_multiplier 2 --description "Beard" --batch_size 5 --step 20 --attention_layer 13 --cluster_num 20
+
+python run_attention.py --multiprocessing-distributed --gpu_id 0,1,2,3,4,5,6,7 --ckpt "../pretrained_models/stylegan2-ffhq-config-f-1024.pt" --stylegan_size 1024 --channel_multiplier 2 --batch_size 1 --step 10000 --save_intermediate_image_every 1000 --lambda_ess 0.03 --lambda_sec 0.01 --lambda_id 0.1 --lambda_delta 0.03 --lr 0.01 --attention_layer 13 --description "narrow eyes" --use_cluster --cluster_path "results/outputs/Beard-{your_clustering_time}/k_means_human_12_layer_20_clusters.pkl" --cluster_layer 13 --cluster_num 20  --work_in_stylespace
