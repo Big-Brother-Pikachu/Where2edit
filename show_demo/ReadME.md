@@ -6,7 +6,8 @@ The pre-trained CLIP is from <https://github.com/openai/CLIP>.
 
 The GAN inversion model is from <https://github.com/omertov/encoder4editing>.
 
-We have put our trained model "final_mapper.pt" in the "models" folder. 
+Our trained model can be dowmloaded from <https://cloud.tsinghua.edu.cn/d/8a65168fa4464014b62f/>.
+You have to put it (the "final_mapper.pt") in the "models" folder. 
 Then you can run the demo in this folder with: `streamlit run try_demo.py --server.port YOUR_PORT`
 
 Have fun editing!
