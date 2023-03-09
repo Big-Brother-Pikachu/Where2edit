@@ -1,6 +1,6 @@
 ## Where You Edit is What You Get: Text-Guided Image Editing with Region-Based Attention
 
-This repository contains the official PyTorch implementation of our *Pattern Recognit.* paper:
+This repository contains the official PyTorch implementation of our *Pattern Recognition* journal paper:
 
 > **Where You Edit is What You Get: Text-Guided Image Editing with Region-Based Attention**<br>
 > Changming Xiao, Qi Yang, Xiaoqiang Xu, Jianwei Zhang, Feng Zhou, Changshui Zhang <br>
