@@ -1,16 +1,16 @@
-Official PyTorch implementation for the paper:
+## Where You Edit is What You Get: Text-Guided Image Editing with Region-Based Attention
 
-**[Where You Edit is What You Get: Text-Guided Image Editing with Region-Based Attention](https://doi.org/10.1016/j.patcog.2023.109458)**
+This repository contains the official PyTorch implementation.
 
-<div align=center>
-<img width="650" src="images/framework.png">
-</div>
-
-> **StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery**<br>
+> **Where You Edit is What You Get: Text-Guided Image Editing with Region-Based Attention**<br>
 > Changming Xiao, Qi Yang, Xiaoqiang Xu, Jianwei Zhang, Feng Zhou, Changshui Zhang <br>
 > https://doi.org/10.1016/j.patcog.2023.109458 <br>
 >
 >**Abstract:** Leveraging the abundant knowledge learned from pre-trained multi-modal models like CLIP has recently proved to be effective for text-guided image editing. Though convincing results have been made when combining the image generator StyleGAN with CLIP, most methods need to train separate models for different prompts, and irrelevant regions are often changed after editing due to the lack of spatial disentanglement. We propose a novel framework that can edit different images according to different prompts in one model. Besides, an innovative region-based spatial attention mechanism is adopted to explicitly guarantee the locality of editing. Experiments mainly in the face domain verify the feasibility of our framework and show that when multi-text editing and local editing are accomplishable, our method can complete practical applications like sequential editing and regional style transfer.
+
+<div align=center>
+<img width="650" src="images/framework.png">
+</div>
 
 ## To Start
 
