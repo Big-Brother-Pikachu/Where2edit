@@ -20,6 +20,8 @@ You should run "clustering_feature.py" first to generate the clusters, then run 
 
 The "pretrained_models" folder is used to store pre-trained models and the "celeba-caption" folder is used to store the corpus.
 
+We have provided scripts in the "show_demo" folder to run a demo.
+
 ## Citation
 
 If you find our research interesting, please kindly cite our paper:
