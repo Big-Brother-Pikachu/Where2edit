@@ -25,7 +25,8 @@ The "pretrained_models" folder is used to store pre-trained models and the "cele
 We have provided scripts in the "show_demo" folder to run a demo.
 
 <div align=center>
-<img src="images/demo.gif">
+<!-- <img src="images/demo.gif"> -->
+  <video src="images/demo.webm"></video>
 </div>
 
 ## Citation
