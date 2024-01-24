@@ -28,10 +28,6 @@ We have provided scripts in the "show_demo" folder to run a demo.
   <img src="images/demo.gif">
 </div>
 
-<video id="video" controls="controls" autoplay="autoplay" loop="loop">
-    <source id="webm" src="images/demo.webm" type="video/webm">
-</videos>
-
 ## Citation
 
 If you find our research interesting, please kindly cite our paper:
