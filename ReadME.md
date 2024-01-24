@@ -26,7 +26,9 @@ We have provided scripts in the "show_demo" folder to run a demo.
 
 <div align=center>
 <!-- <img src="images/demo.gif"> -->
-  <video src="images/demo.webm" controls="controls" type="video/webm"></video>
+  <video id="video" controls="controls" autoplay="autoplay" loop="loop">
+      <source id="webm" src="images/demo.webm" type="video/webm">
+  </videos>
 </div>
 
 ## Citation
